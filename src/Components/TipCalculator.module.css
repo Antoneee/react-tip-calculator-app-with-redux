@@ -1,0 +1,29 @@
+.calculator-container {
+  display: flex;
+  gap: 3rem;
+  width: 60rem;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 3rem;
+}
+
+@media (max-width: 61em) {
+  .calculator-container {
+    width: 40rem;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 42em) {
+  .calculator-container {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .calculator-container {
+    width: 22rem;
+    padding: 2rem;
+  }
+}

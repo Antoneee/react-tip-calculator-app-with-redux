@@ -1,0 +1,24 @@
+.results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 30px;
+  padding: 3rem 2rem 2rem 2rem;
+  width: 50%;
+}
+
+.results {
+  width: 100%;
+}
+
+@media (max-width: 61em) {
+  .results-container {
+    width: 100%;
+  }
+
+  .results {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,12 @@
+.configure-tip__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 50%;
+}
+
+@media (max-width: 61em) {
+  .configure-tip__container {
+    width: 100%;
+  }
+}

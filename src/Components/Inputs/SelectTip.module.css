@@ -1,0 +1,17 @@
+.select-tip__header {
+  margin-bottom: 1rem;
+  color: hsl(186, 14%, 43%);
+  font-weight: bold;
+}
+
+.select-tip__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 32em) {
+  .select-tip__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

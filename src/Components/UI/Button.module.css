@@ -1,0 +1,42 @@
+.button {
+  padding: 0.5rem 0;
+  font-size: 1.6rem;
+  font-family: inherit;
+  font-weight: bold;
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(189, 41%, 97%);
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  color: hsl(183, 100%, 15%);
+  background-color: #93e0d5;
+}
+
+.reset {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  width: 100%;
+}
+
+.selected {
+  background-color: hsl(172, 67%, 45%);
+  color: #00494d;
+}
+
+.disable {
+  width: 100%;
+  cursor: not-allowed;
+  background-color: #1a5b5f;
+  color: hsl(183, 100%, 15%);
+}
+
+.disable:hover,
+.disable:active {
+  background-color: #1a5b5f;
+  color: hsl(183, 100%, 15%);
+}
